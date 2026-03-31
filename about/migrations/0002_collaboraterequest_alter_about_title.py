@@ -20,9 +20,5 @@ class Migration(migrations.Migration):
                 ('read', models.BooleanField(default=False)),
             ],
         ),
-        migrations.AlterField(
-            model_name='about',
-            name='title',
-            field=models.CharField(max_length=200),
-        ),
+        
     ]
